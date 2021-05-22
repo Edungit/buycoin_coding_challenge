@@ -24,9 +24,6 @@ Other requirements:
 - Do not use any CSS or JS framework
 - Host your site somewhere (e.g. Netlify or Github Pages)
 
-# Deployment
-
-
 ## Author
 
 👤 **Edun Habeeb Opeyemi**
