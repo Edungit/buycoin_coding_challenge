@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 /*Nav-bar*/
 .grey-nav {
@@ -15,12 +16,12 @@ body {
 }
 .search-input {
   background-color: rgba(21, 20, 20, 0.987);
-  border: white solid 1px;
+  border: rgba(213, 213, 213, 0.522) solid 1px;
   border-radius: 3px;
   padding: 5px;
 }
 .search-input::placeholder {
-  color: antiquewhite;
+  color: rgba(214, 214, 213, 0.816);
 }
 .icon {
   width: 20px;
@@ -94,4 +95,41 @@ a {
 }
 .profile-content {
   display: flex;
+}
+.git-img {
+  width: 300px;
+  height: 300px;
+  margin-top: -30px;
+  border-radius: 200px;
+}
+.image-desc {
+  margin-left: 50px;
+}
+.profile-username {
+  font-weight: 400;
+  margin-top: -15px;
+  color: rgb(33, 34, 34);
+}
+.search-repo {
+  margin-top: 20px;
+  margin-left: 60px;
+  width: 750px;
+  border: solid 0.5px rgba(163, 161, 161, 0.871);
+  border-radius: 5px;
+  padding: 8px;
+}
+.line1 {
+  margin-left: 60px;
+  color: rgba(242, 236, 236, 0.35);
+  margin-top: 17px;
+}
+.repo-lists {
+  margin-left: 20px;
+  list-style: none;
+}
+.bold {
+  font-weight: 600;
+}
+.search-result {
+  margin-left: 58px;
 }
