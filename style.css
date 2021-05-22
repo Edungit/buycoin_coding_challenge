@@ -123,6 +123,10 @@ a {
   color: rgba(242, 236, 236, 0.35);
   margin-top: 17px;
 }
+.line2 {
+  color: rgba(242, 236, 236, 0.35);
+  margin-top: 45px;
+}
 .repo-lists {
   margin-left: 20px;
   list-style: none;
@@ -132,4 +136,21 @@ a {
 }
 .search-result {
   margin-left: 58px;
+}
+.star {
+  width: 13px;
+  height: 12px;
+}
+.star-button {
+  cursor: pointer;
+  padding: 5px;
+  width: 60px;
+  margin-top: 20px;
+  margin-left: 550px;
+}
+.repo-row {
+  display: flex;
+}
+.right {
+  float: right;
 }
