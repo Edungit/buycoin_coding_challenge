@@ -27,10 +27,11 @@ Other requirements:
 # Deployment
 
 
-# Author
-> Name: EDUN HABEEB OPEYEMI
-> linkedin profile: https://www.linkedin.com/in/edun-habeeb-635680131/
-> github: https://github.com/edungit
-> Phone: +2348125827781
-> Email: edunhabeeb@gmail.com
+## Authors
+
+👤 **Edun Habeeb Opeyemi**
+- GitHub: [@edungit](https://github.com/edungit)
+- Twitter: [Edunaty1](https://twitter.com/Edunaty1)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/edun-habeeb-635680131/)
+- E-mail: [E-mail](edunhabeeb@gmail.com)
 
