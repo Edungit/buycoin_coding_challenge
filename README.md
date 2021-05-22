@@ -27,11 +27,11 @@ Other requirements:
 # Deployment
 
 
-## Authors
+## Author
 
 👤 **Edun Habeeb Opeyemi**
 - GitHub: [@edungit](https://github.com/edungit)
 - Twitter: [Edunaty1](https://twitter.com/Edunaty1)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/edun-habeeb-635680131/)
-- E-mail: [E-mail](edunhabeeb@gmail.com)
+- LinkedIn: [Edun-Habeeb](https://www.linkedin.com/in/edun-habeeb-635680131/)
+- E-mail: [edunhabeeb@gmail.com](edunhabeeb@gmail.com)
 
