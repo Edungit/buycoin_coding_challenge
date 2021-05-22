@@ -20,6 +20,14 @@ body {
   border-radius: 3px;
   padding: 5px;
 }
+.search-input:focus {
+  background-color: rgba(248, 248, 248, 0.987);
+  border: rgba(213, 213, 213, 0.522) solid 1px;
+  border-radius: 3px;
+  padding: 5px;
+  color: black;
+  width: 420px;
+}
 .search-input::placeholder {
   color: rgba(214, 214, 213, 0.816);
 }
@@ -35,6 +43,7 @@ body {
 .white {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
 }
 .white:hover {
   color: rgb(194, 182, 182);
