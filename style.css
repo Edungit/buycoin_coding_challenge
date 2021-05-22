@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.grey-nav {
+  background-color: rgba(21, 20, 20, 0.987);
+  width: 100%;
+}
+.git-alien {
+  margin-left: 12px;
+  margin-top: -5px;
+  color: white;
+}
+.search-input {
+  background-color: rgba(21, 20, 20, 0.987);
+  border: white solid 1px;
+  border-radius: 3px;
+  padding: 5px;
+}
+.search-input::placeholder {
+  color: antiquewhite;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+.white {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.space {
+  margin-right: 6px;
+}
+.flex-list {
+  display: inline-flex;
+  list-style: none;
+}
+.more-space {
+  margin-left: 360px;
+}
+.small-space {
+  margin-left: 20px;
+
+}
+.nav-down {
+  padding: 5px;
+}
