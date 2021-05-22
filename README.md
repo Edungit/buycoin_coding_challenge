@@ -28,9 +28,9 @@ Other requirements:
 
 
 # Author
-Name: EDUN HABEEB OPEYEMI
-linkedin profile: https://www.linkedin.com/in/edun-habeeb-635680131/
-github: https://github.com/edungit
-Phone: +2348125827781
-Email: edunhabeeb@gmail.com
+> Name: EDUN HABEEB OPEYEMI
+> linkedin profile: https://www.linkedin.com/in/edun-habeeb-635680131/
+> github: https://github.com/edungit
+> Phone: +2348125827781
+> Email: edunhabeeb@gmail.com
 
