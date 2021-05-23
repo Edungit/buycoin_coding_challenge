@@ -35,4 +35,5 @@ Other requirements:
 - Twitter: [Edunaty1](https://twitter.com/Edunaty1)
 - LinkedIn: [Edun-Habeeb](https://www.linkedin.com/in/edun-habeeb-635680131/)
 - E-mail: [edunhabeeb@gmail.com](edunhabeeb@gmail.com)
+- Phone: [+2348125827781] (+2348125827781)
 
