@@ -29,7 +29,7 @@ const months = [
 
 const base_url = "https://api.github.com/graphql";
 const method = "POST";
-const token = "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";
+const token = "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";
 
 const update_DOM = (profile) => {
   username.innerHTML = `${profile.name !== null ? profile.name : ""}`
