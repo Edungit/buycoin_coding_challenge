@@ -1,0 +1,170 @@
+/*Nav-bar*/
+.grey-nav {
+  background-color: rgba(21, 20, 20, 0.987);
+  width: 100%;
+}
+.git-alien {
+  margin-left: 12px;
+  margin-top: -5px;
+  color: white;
+  cursor: pointer;
+}
+.search-input {
+  background-color: rgba(21, 20, 20, 0.987);
+  border: rgba(213, 213, 213, 0.522) solid 1px;
+  border-radius: 3px;
+  padding: 5px;
+}
+.search-input:focus {
+  background-color: rgba(248, 248, 248, 0.987);
+  border: rgba(213, 213, 213, 0.522) solid 1px;
+  border-radius: 3px;
+  padding: 5px;
+  color: black;
+  width: 420px;
+}
+.search-input::placeholder {
+  color: rgba(214, 214, 213, 0.816);
+}
+.icon {
+  width: 20px;
+  height: 20px;
+  color: white;
+  cursor: pointer;
+}
+.icon:hover {
+  color: rgb(146, 143, 143);
+}
+.white {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  margin-top: 2px;
+  position: static;
+}
+.white:hover {
+  color: rgb(194, 182, 182);
+}
+a {
+  text-decoration: none;
+}
+.space {
+  margin-right: 6px;
+}
+.flex-list {
+  display: inline-flex;
+  list-style: none;
+}
+.more-space {
+  margin-left: 360px;
+}
+.small-space {
+  margin-left: 20px;
+
+}
+.nav-down {
+  padding: 5px;
+}
+/* Repository tab */
+.repo-tab {
+  background-color: rgb(255, 255, 255);
+  height: 30px;
+  border: solid 0.5px rgba(109, 107, 107, 0.686);
+  padding-top: 40px;
+  padding-bottom: -150px;
+
+}
+.repo-active span{
+  text-decoration: none;
+  color: black;
+  padding-bottom: -80px;
+  font-weight: 600;
+  border-bottom: solid 0.5px red;
+  padding: 14px;
+}
+
+.shift {
+  margin-left: 400px;
+}
+
+.repo span{
+  text-decoration: none;
+  color: black;
+  padding-bottom: -80px;
+  font-weight: 600;
+  padding: 14px;
+}
+.repo-svg {
+  height: 18px;
+  width: 20px;
+  margin-bottom: -4px;
+}
+.profile-content {
+  display: flex;
+}
+.git-img {
+  width: 300px;
+  height: 300px;
+  margin-top: -30px;
+  border-radius: 200px;
+}
+.image-desc {
+  margin-left: 50px;
+}
+.profile-username {
+  font-weight: 400;
+  margin-top: -15px;
+  color: rgb(33, 34, 34);
+}
+.search-repo {
+  margin-top: 20px;
+  margin-left: 60px;
+  width: 750px;
+  border: solid 0.5px rgba(163, 161, 161, 0.871);
+  border-radius: 5px;
+  padding: 8px;
+}
+.line1 {
+  margin-left: 60px;
+  color: rgba(242, 236, 236, 0.35);
+  margin-top: 17px;
+}
+.line2 {
+  color: rgba(242, 236, 236, 0.35);
+  margin-top: 45px;
+}
+.repo-lists {
+  margin-left: 20px;
+  list-style: none;
+}
+.bold {
+  font-weight: 600;
+}
+.search-result {
+  margin-left: 58px;
+}
+.star {
+  width: 13px;
+  height: 12px;
+}
+.star-button {
+  cursor: pointer;
+  padding: 5px;
+  width: 60px;
+  margin-top: 20px;
+  margin-left: 550px;
+}
+.repo-row {
+  display: flex;
+}
+.right {
+  float: right;
+}
+
+.point {
+  cursor: pointer;
+}
+
+.point:hover {
+color: rgb(196, 195, 195);
+}

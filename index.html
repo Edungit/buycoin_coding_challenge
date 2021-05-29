@@ -1,89 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Github Profile Page</title>
-  <link rel="stylesheet" href="style.css">
+  <title>GitHub</title>
+  <link href="fontawesome5/css/all.css" rel="stylesheet">
+  <link href="fontawesome5/css/fontawesome.css" rel="stylesheet">
+  <script defer src="fontawesome5/js/all.js"></script>
+  <script defer src="fontawesome5/js/all.js"></script>
+  <script defer src="fontawesome5/js/fontawesome.js"></script>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/style2.css">
 </head>
+
 <body>
-  <header class="grey-nav">
-  <nav class="git-nav">
-    <ul class="flex-list">
-      <li class="links">
-        <svg class= "git-alien white" height="32" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true" fill="currentColor">
+  <header class="header_1">
+    <div class="mobile_menu_toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+      <div class="left-nav">
+        <li><svg class= "git-alien white" height="32" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true" fill="currentColor">
           <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
           </path>
         </svg>
       </li>
-      <li class="links small-space">
-        <input type="text" placeholder="Search or jump to..." size="30" class="search-input">
-      </li>
-  
-      <li class="links small-space nav-down">
-        <a href= "#" class="white space">Pull requests</a>
-        <a href= "#" class="white space">Issues</a>
-        <a href= "#" class="white space">Marketplace</a>
-        <a href= "#" class="white space">Explore</a>
-      </li>  
-          
-      <li class="links more-space nav-down">
-        <svg class= "icon" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true" fill="currentColor"><path fill-rule="evenodd" d="M14 12v1H0v-1l.73-.58c.77-.77.81-2.55 1.19-4.42C2.69 3.23 6 2 6 2c0-.55.45-1 1-1s1 .45 1 1c0 0 3.39 1.23 4.16 5 .38 1.88.42 3.66 1.19 4.42l.66.58H14zm-7 4c1.11 0 2-.89 2-2H5c0 1.11.89 2 2 2z"></path></svg>
-        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"></path></svg>
-      </li>
-      <li class="links nav-down">
-        <svg class= "icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true" fill="currentColor"><path fill-rule="evenodd" d="M12 9H7v5H5V9H0V7h5V2h2v5h5v2z"></path></svg>
-        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"></path></svg>
-      </li>
-      <li class="links nav-down">
-        <img alt="@edungit" width="20" height="20" src="https://avatars.githubusercontent.com/u/77179011?s=60&v=4">
-        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"></path></svg>
-      <li>
-    </ul>
-  </nav>
+        <input class="header_input profile_search" type="search" placeholder="Search or jump to...">
+        <ul>
+          <li><a href="#">Pull request</a></li>
+          <li><a href="#">issues</a></li>
+          <li><a href="#">Codespace</a></li>
+          <li><a href="#">Marketplace</a></li>
+          <li><a href="#">Explore</a></li>
+        </ul>
+        
+      </div>
+      <div class="right-nav">
+        <li><i class="fas fa-bell point"></i></li>
+        <li><i class="fas fa-plus point"></i>&nbsp;<i class="fas fa-caret-down point"></i></li>
+        <li><i class="fas fa-user point"></i>&nbsp;<i class="fas fa-caret-down point"></i></li>
+      </div>
+
+      <div class="mobile_menu">
+        <ul>
+          <li>Pull request</li>
+          <li>issues</li>
+          <li>Codespace</li>
+          <li>Marketplace</li>
+          <li>Explore</li>
+        </ul>
+      </div>
+      <li><i class="fas fa-bell mob"></i></li>
+    
   </header>
-  <section>
-    <div class="repo-tab">
-    <a href="#" class="repo shift"><span><img class="repo-svg" src="https://img.icons8.com/ios/30/000000/open-book.png"/>&nbsp;Overview</span></a>
-    <a href="#" class="repo-active"><span><img class="repo-svg" src="https://img.icons8.com/windows/32/000000/repository.png"/>&nbsp;Repositories</span></a> 
-    <a href="#" class="repo"><span><img class="repo-svg" src="https://img.icons8.com/ios/50/000000/summary-list.png"/>&nbsp;Projects</span></a>
-    <a href="#" class="repo"><span><img class="repo-svg" src="https://img.icons8.com/ios/50/000000/cardboard-box.png"/>&nbsp;Packages</span></a>
-  </div>
-      
+  <section class="home_page">
+    <header class="header_2">
+      <div class="btn_group__1">
+        <button class="b-tabs">
+          <img class="repo-svg" src="https://img.icons8.com/ios/30/000000/open-book.png"/>&nbsp; Overview
+        </button>
+        <button class="active b-tabs">
+          <img class="repo-svg" src="https://img.icons8.com/windows/32/000000/repository.png"/>&nbsp;Repositories <span class="repository_count">0</span>
+        </button>
+        <button class="b-tabs">
+          <img class="repo-svg" src="https://img.icons8.com/ios/50/000000/summary-list.png"/>&nbsp;Projects
+        </button>
+        <button class="b-tabs">
+          <img class="repo-svg" src="https://img.icons8.com/ios/50/000000/cardboard-box.png"/>&nbsp;Packages
+        </button>
+      </div>
+    </header>
+    <div class="home_page__left">
+      <div class="profile_picture__wrapper">
+        <div class="profile_picture">
+          <img class="profile_image" src="" alt="profile_picture">
+        </div>
+      </div>
+      <div class="profile_info">
+        <h1 class="username"></h1>
+        <p class="bio"></p>
+      </div>
     </div>
-    <div class="profile-content">
-    <div class="image-desc">
-      <img src="img/mygit.png" class="git-img" alt="profile-pic">
-      <br>
-      <h1 class="profile-name">Edun Habeeb Opeyemi</h1>
-      <h4 class="profile-username">Edungit</h4>
-      <p class="profile-desc">I am a Full Stack Software Engineer</p>
+    <div class="home_page__right">
+
+      <div class="search_input_wrapper">
+        <input type="text" placeholder="Find a repository...">
+      </div>
+      <div class="repo_count_text">
+        <b class="public_repository_count">0</b> results for public repositories
+      </div>
+      <div class="public_repositories"></div>
     </div>
-
-    <div class="profile-repositories">
-      <input type="text" placeholder="Find a Repository..." size="30" class="search-repo"> <hr class="line1">
-      <p class="search-result"> <span class="bold">20</span> results for <span class="bold">public</span> repositories</p> <hr class="line1">
-      <ul class="repo-lists">
-        <li class="each-repo">
-          <div class="repo-row">
-            <div class="repo-column">
-          <a href="#"><h2>First Repo</h2></a>
-          <p class="repo-desc">This is my first repo</p>
-        </div> 
-        <div class="repo-column right">
-          <button class="star-button"><img class="star" src="https://img.icons8.com/ios/26/000000/star--v1.png"/>&nbsp;Star</button>
-        </div> 
-      </div>       
-        </li> <hr class="line2">   
-      </ul>
-    </div>
-
-  </div>
-
-
   </section>
 
-  
+
+
+  <script src="/assets/js/script.js"></script>
 </body>
+
 </html>

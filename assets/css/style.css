@@ -1,0 +1,394 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+body {
+  width: 100vw;
+}
+
+.header_1 {
+  padding: 10px 5px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  color: white;
+  font-weight: 500;
+  background: rgb(29, 29, 29);
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right-nav {
+  min-width: 10%;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 9px;
+}
+
+.right-nav li i {
+  max-width: 8px;
+}
+
+.left-nav {
+  min-width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.left-nav ul {
+  width: 55%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.left-nav ul li a {
+  color: white;
+  font-weight: bold;
+  font-size: 11px;
+}
+
+ul div {
+  margin: auto 20px auto 100px;
+  display: flex;
+}
+
+.header_input {
+  height: 30px;
+  width: 200px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+  margin-top: 4px;
+  background: rgb(29, 29, 29);
+  outline: none;
+  border: solid 1px rgb(155, 152, 152);
+  padding-left: 5px;
+}
+
+.header_input:focus{
+  background-color: white;
+  color: rgb(29, 29, 29);
+  width: 320px;
+}
+
+.fa-github {
+  width: 60px;
+  margin: auto 5px;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+.mobile_menu_toggle{
+  display: none;
+  width: 30px;
+  cursor: pointer;
+}
+
+.mobile_menu_toggle span{
+  width: 30px;
+  height: 4px;
+  display: block;
+  background-color: white;
+  margin-bottom: 3px;
+  pointer-events: none;
+  transition: all 300ms ease-in-out;
+  transform-origin: 10px 2px;
+}
+
+.mob {
+  display: none;
+}
+
+.mobile_menu_toggle span:hover{
+  background-color: rgb(158, 156, 156);
+}
+
+.mobile_menu_toggle.open span:first-child{
+  display: none;
+}
+
+.mobile_menu_toggle.open span:nth-child(2){
+  transform: rotate(45deg);
+  
+}
+
+.mobile_menu_toggle.open span:nth-child(3){
+  transform: rotate(-45deg);
+}
+
+.mobile_menu{
+  display: none;
+  position: fixed;
+  top: -100%;
+  left: 0;
+  width: 100vw;
+  height: max-content;
+  background-color: black;
+  color: white;
+  margin: 7px;
+  padding-bottom: 30px;
+  transition: all 300ms ease-in-out;
+}
+
+.mobile_menu ul {
+  margin: 10px 30px;
+}
+
+.mobile_menu ul li {
+  color: white;
+  border-bottom: .3px solid white;
+  padding: 10px 5px;
+}
+
+.mobile_menu.open{
+  top: 48px;
+}
+
+.header_2 {
+  min-width: 100%;
+  padding-left: 30%;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.178);
+  z-index: inherit;
+}
+
+.btn_group__1 {
+  display: flex;
+}
+
+.btn_group__1 button {
+  text-align: center;
+  padding: 9px 15px;
+  border: none;
+  background-color: white;
+  border-bottom: 2px solid white;
+  cursor: pointer;
+}
+
+.btn_group__1 button.active {
+  font-weight: bold;
+  border-bottom: 2px solid rgb(255, 110, 110);
+  cursor: pointer;
+}
+
+.btn_group__1 .repository_count {
+  background-color: rgb(201, 201, 201);
+  padding: 3px 5px;
+  font-size: 11px;
+  border-radius: 8px;
+}
+
+.home_page {
+  padding-top: 10px;
+  width: 100%;
+  height: max-content;
+  background-color: rgba(255, 0, 0, 0);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.home_page__left {
+  padding: 0 10px;
+  width: 30%;
+  background-color: rgba(255, 228, 196, 0);
+  padding-left: 45px;
+  padding-top: 30px;
+  z-index: 99999;
+  display: inline-block;
+}
+
+.profile_picture__wrapper {
+  width: min-content;
+  height: min-content;
+  margin-top: -30px;
+  margin-bottom: 50px;
+}
+
+.profile_picture {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  margin: auto;
+  background-color: black;
+  overflow: hidden;
+}
+
+.profile_image {
+  width: 100%;
+  z-index: 99999;
+}
+
+.home_page__right {
+  width: 70%;
+  background-color: rgba(255, 228, 196, 0);
+
+}
+
+.home_page .search_input_wrapper {
+  padding: 15px 0;
+  width: 95%;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.178);
+}
+
+.home_page .search_input_wrapper input {
+  width: 97%;
+  border-radius: 5px;
+  border: 1.5px solid rgba(128, 128, 128, 0.212);
+  padding: 4px 6px;
+  font-weight: bold;
+}
+
+.repo_count_text {
+  width: max-content;
+  padding: 10px 0;
+  font-size: 12px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.178);
+}
+
+.home_page .public_repositories .public_repo_list {}
+
+.home_page .public_repositories .public_repo_list_item {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  padding: 19px 0;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.178);
+}
+
+.repo_list_item_title {
+  font-size: 16px;
+  color: rgb(76, 76, 253);
+  margin-bottom: 7px;
+}
+
+.repo_list_item_desc {
+  font-size: 10px;
+  color: grey;
+}
+
+.repo_list_item_sub {
+  font-size: 10px;
+  margin-right: 5px;
+}
+
+.repo_list_item_right {
+  max-width: min-content;
+}
+
+.repo_list_item_right button {
+  width: max-content;
+  padding: 3px 8px;
+  font-size: 11px;
+  font-weight: bold;
+  border-radius: 5px;
+  text-align: center;
+  background-color: white;
+  border: 1px solid rgba(128, 128, 128, 0.178);
+}
+
+
+@media(max-width: 720px) {
+  .left-nav ul {
+    display: none;
+  }
+
+  .right-nav{
+    display: none;
+  }
+
+  .repo-svg {
+    display: none;
+  }
+
+  .header_input {
+    display: none;
+  }
+
+  .mobile_menu_toggle{
+    display: block;
+    margin-left: 5px;
+  }
+
+  .mobile_menu_toggle span:hover{
+    background-color: rgb(158, 156, 156);
+  }
+
+  .mob {
+    color: white;
+    margin-top: 5px;
+    margin-right: 10px;
+    width: 35px;
+    height: 25px;
+    display: block;
+    cursor: pointer;
+    margin-left: 30px;
+  }
+
+  .mob:hover {
+    color: rgb(145, 144, 144);
+  }
+
+  .mobile_menu{
+    display: block;
+  }
+
+  .home_page {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home_page__left {
+    display: row;
+    width: 100%;
+    order: -1;
+  }
+
+  
+
+  .profile_picture__wrapper {
+    max-width: 80px;
+    margin-top: 10px;
+    z-index: 99999;
+    margin-left: -15px;
+  }
+
+  
+  .profile_picture {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: auto;
+    background-color: black;
+    overflow: hidden;
+    margin-left: -2px;
+  }
+
+  .header_2 {
+    padding-left: 0;
+  }
+
+  .profile_info{
+    display: block;
+    margin-left: -22px;
+    margin-bottom: 8px;
+  }
+}
+
+@media(max-width : 400px){
+  .home_page__left{
+    flex-direction: row;
+    align-items: left;
+  }
+  .repo-svg {
+    display: none;
+  }
+}
