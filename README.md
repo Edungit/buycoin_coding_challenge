@@ -25,7 +25,7 @@ Other requirements:
 - Host your site somewhere (e.g. Netlify or Github Pages)
 
 ## Site Link
-- (https://upbeat-rosalind-cab696.netlify.app/)
+- (https://pensive-lichterman-438f4a.netlify.app/)
 
 
 ## Author
