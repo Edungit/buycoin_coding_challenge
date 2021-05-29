@@ -25,7 +25,7 @@ Other requirements:
 - Host your site somewhere (e.g. Netlify or Github Pages)
 
 ## Site Link
-- (https://edungit.github.io/buycoin_coding_challenge/)
+- (https://upbeat-rosalind-cab696.netlify.app/)
 
 
 ## Author
